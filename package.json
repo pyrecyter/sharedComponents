@@ -1,9 +1,9 @@
 {
   "name": "@pyrecyter/sharedcomponents",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "components for react applications",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/esm/index.js",
+  "types": "lib/esm/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -31,5 +31,8 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "exports": {
+    ".": "./lib/esm/index.js"
+  }
 }

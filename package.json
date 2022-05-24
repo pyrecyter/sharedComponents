@@ -1,0 +1,27 @@
+{
+  "name": "@pyrecyter/sharedcomponents",
+  "version": "1.0.0",
+  "description": "components for react applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyrecyter/sharedComponents.git"
+  },
+  "author": "Sachira Nuwanga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyrecyter/sharedComponents/issues"
+  },
+  "homepage": "https://github.com/pyrecyter/sharedComponents#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "typescript": "^4.6.4"
+  }
+}

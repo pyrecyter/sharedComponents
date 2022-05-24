@@ -1,6 +1,6 @@
 {
   "name": "@pyrecyter/sharedcomponents",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "components for react applications",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -22,7 +22,7 @@
     "url": "https://github.com/pyrecyter/sharedComponents/issues"
   },
   "homepage": "https://github.com/pyrecyter/sharedComponents#readme",
-  "peerDependencies": {
+  "devDependencies": {
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
     "react": "^18.1.0",

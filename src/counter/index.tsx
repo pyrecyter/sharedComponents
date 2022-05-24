@@ -19,9 +19,13 @@ const Counter = (props: CounterPorps) => {
   };
   return (
     <div>
-      <button onClick={increse}>+</button>
+      <button className="btn-green" onClick={increse}>
+        +
+      </button>
       <span style={{ padding: "20px" }}>{count}</span>
-      <button onClick={decrese}>-</button>
+      <button className="btn-red" onClick={decrese}>
+        -
+      </button>
     </div>
   );
 };
